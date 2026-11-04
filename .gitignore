@@ -113,9 +113,6 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
-# 三极字库商业字体：仅本机保留，不随仓库分发
-/Assets/Fonts/SanJi*
-/Assets/Fonts/SanJi*
 
 # 本次权限修复的回滚记录，不属于项目内容
 /.dsh-acl-reports/

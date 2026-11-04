@@ -19,12 +19,10 @@ namespace Zilong.Demo
 
         Font LoadAnnouncementFont()
         {
-#if UNITY_WEBGL && !UNITY_EDITOR
-            // The calligraphic OS fonts do not exist in a browser; fall back to the bundled CJK subset.
-            return font != null ? font : Resources.Load<Font>("Fonts/SourceHanSansSC-Regular");
-#else
+            // The bundled calligraphic face keeps the round badges identical in the editor and the browser.
+            var bundled = Resources.Load<Font>("Fonts/YanShiXiaXingKai");
+            if (bundled != null) return bundled;
             return Font.CreateDynamicFontFromOSFont(new[] { "STXingkai", "KaiTi", "STKaiti", "Microsoft YaHei" }, 64);
-#endif
         }
         void MakeAnnouncementUI()
         {

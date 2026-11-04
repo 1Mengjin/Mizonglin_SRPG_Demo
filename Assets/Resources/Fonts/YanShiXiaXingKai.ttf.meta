@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 887bb64f0c73c9649b4cd7631a86cd7b
+guid: ec621ac2219a96d4da58c6f960ff6432
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Source Han Sans SC
+  - Slidexiaxing
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
