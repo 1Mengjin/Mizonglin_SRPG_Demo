@@ -169,3 +169,7 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# GitHub Pages 无法服务 Git LFS 内容，构建产物必须作为普通文件提交
+docs/** -filter -diff -merge
+
