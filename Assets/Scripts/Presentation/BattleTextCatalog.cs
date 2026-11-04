@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     [Serializable]
     public sealed class BattleTextEntry
@@ -16,7 +16,7 @@ namespace Zilong.Demo
     {
         public string title, description;
     }
-    [CreateAssetMenu(menuName = "紫龙 Demo/技能与状态说明", fileName = "BattleTextCatalog")]
+    [CreateAssetMenu(menuName = "迷踪林战棋 Demo/技能与状态说明", fileName = "BattleTextCatalog")]
     public sealed class BattleTextCatalog : ScriptableObject
     {
         public const string ResourceName = "BattleTextCatalog";

@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
 [InitializeOnLoad]
 public static class TextClarityIntegration

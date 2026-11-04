@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 class BasicAttackChecks
 {
     static void Check(bool ok,string message){if(!ok)throw new Exception(message);}

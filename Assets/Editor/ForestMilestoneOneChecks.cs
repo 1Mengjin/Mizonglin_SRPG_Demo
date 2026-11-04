@@ -2,15 +2,15 @@ using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 public static class ForestMilestoneOneChecks
 {
     const string RequestPath = "Artifacts/forest-m1-check-request.txt";
     const string ReportPath = "Artifacts/forest-m1-unity-verification.txt";
 
-    [MenuItem("紫龙 Demo/迷踪林/执行里程碑1验收")]
+    [MenuItem("迷踪林战棋 Demo/迷踪林/执行里程碑1验收")]
     public static void Run()
     {
         var scenario = AssetDatabase.LoadAssetAtPath<ForestScenario>(ForestDataWindow.AssetPath);

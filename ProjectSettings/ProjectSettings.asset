@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "\u7D2B\u9F99 \xB7 \u5730\u56FE\u7F16\u8F91\u8BD5\u73A9"
+  productName: "\u8FF7\u8E2A\u6797\u6218\u68CB Demo"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -635,7 +635,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: PROJECT:ZilongWeb
+  webGLTemplate: PROJECT:MizonglinWeb
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
@@ -682,14 +682,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ZILONG
+  metroPackageName: MIZONGLIN
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: ZILONG
+  metroApplicationDescription: MIZONGLIN
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -762,7 +762,7 @@ PlayerSettings:
   cloudProjectId: 9d48e96c-ea76-4b6d-a9f2-941ca1c43181
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ZILONG
+  projectName: MIZONGLIN
   organizationId: wechat_os_qy07kcp_hoko-ods90gpaalwa
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

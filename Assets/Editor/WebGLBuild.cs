@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace Zilong.EditorTools
+namespace Mizonglin.EditorTools
 {
     // Builds the playable WebGL demo into docs/ so GitHub Pages can serve it from the repository.
     public static class WebGLBuild
@@ -11,7 +11,7 @@ namespace Zilong.EditorTools
         const string ScenePath = "Assets/Scenes/BattleDemo.unity";
         const string OutputDir = "docs";
 
-        [MenuItem("紫龙 Demo/构建 WebGL 试玩")]
+        [MenuItem("迷踪林战棋 Demo/构建 WebGL 试玩")]
         public static void BuildFromMenu()
         {
             Build();
@@ -23,7 +23,7 @@ namespace Zilong.EditorTools
             PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Gzip;
             PlayerSettings.WebGL.decompressionFallback = true;
             PlayerSettings.WebGL.exceptionSupport = WebGLExceptionSupport.ExplicitlyThrownExceptionsOnly;
-            PlayerSettings.WebGL.template = "PROJECT:ZilongWeb";
+            PlayerSettings.WebGL.template = "PROJECT:MizonglinWeb";
 
             Directory.CreateDirectory(OutputDir);
             var options = new BuildPlayerOptions

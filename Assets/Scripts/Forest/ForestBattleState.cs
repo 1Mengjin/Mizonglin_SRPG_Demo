@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public enum BattlePhase { PlayerStart, Player, Enemy, RoundEnd, Finished }
     public enum BattleResult { InProgress, Victory, Defeat }

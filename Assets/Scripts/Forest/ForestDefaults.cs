@@ -1,7 +1,7 @@
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public static class ForestDefaults
     {

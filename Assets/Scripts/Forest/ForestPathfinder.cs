@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public sealed class MovementArea
     {

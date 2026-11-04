@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
 public sealed class BattleTextEditor : EditorWindow
 {
@@ -11,7 +11,7 @@ public sealed class BattleTextEditor : EditorWindow
     int selected, category;
     string search = "", message;
     Vector2 listScroll, contentScroll;
-    [MenuItem("紫龙 Demo/技能与状态说明")]
+    [MenuItem("迷踪林战棋 Demo/技能与状态说明")]
     public static void Open()
     {
         var window = GetWindow<BattleTextEditor>("技能与状态说明");

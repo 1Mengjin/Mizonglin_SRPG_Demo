@@ -20,7 +20,7 @@
 - [ForestBattleState.CommitFrom](../Assets/Scripts/Forest/ForestBattleState.cs)：恢复快照时删除快照中不存在的单位，避免千面阶段/回合末召唤的腐卒在回退后残留。
 - [BattleDemo.Forest.cs](../Assets/Scripts/Presentation/BattleDemo.Forest.cs)：两处玩家提交（主要行动、免费技能）在 `TryExecute` 前记录，失败时丢弃；`UndoForestStep` 清理预览/选中/悬停/特效，随后 `SyncForest → ResetFigures → SyncMapVisuals → Refresh`，重选被回退的角色并强制刷新战斗记录。
 - [BattleDemo.Feedback.cs](../Assets/Scripts/Presentation/BattleDemo.Feedback.cs)：右上「悔棋」按钮（130×48、ink 底、SharpText，与「战斗记录」同款），位于战斗记录下方，「本局用时」从 -150 下移到 -202；`TickForestFeedback` 维护可点状态。
-- 检查入口：[ForestUndoChecks.cs](../Assets/Editor/ForestUndoChecks.cs)（43 条断言）、菜单「紫龙 Demo → 迷踪林 → 执行悔棋逻辑验收」、[verify_forest_undo.py](../Artifacts/verify_forest_undo.py)、[UndoIntegration.cs](../Artifacts/UndoIntegration.cs)、[verify_undo_ui.py](../Artifacts/verify_undo_ui.py)。
+- 检查入口：[ForestUndoChecks.cs](../Assets/Editor/ForestUndoChecks.cs)（43 条断言）、菜单「迷踪林战棋 Demo → 迷踪林 → 执行悔棋逻辑验收」、[verify_forest_undo.py](../Artifacts/verify_forest_undo.py)、[UndoIntegration.cs](../Artifacts/UndoIntegration.cs)、[verify_undo_ui.py](../Artifacts/verify_undo_ui.py)。
 
 ## 验证
 

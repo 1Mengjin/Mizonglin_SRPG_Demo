@@ -343,7 +343,7 @@ B（玩家侧） = 965.91 − 216.27 = 749.64 s （77.6 %）
 
 ### 9.1 最终常量表
 
-`BattlePacing` 是 `namespace Zilong.Demo` 下的 `internal static class`，所有被压缩的时长集中在此；调用点已无裸字面量（旧的两条类内常量 `VictoryHoldSeconds` / `SkillHoldSeconds` 已删除）。
+`BattlePacing` 是 `namespace Mizonglin.Demo` 下的 `internal static class`，所有被压缩的时长集中在此；调用点已无裸字面量（旧的两条类内常量 `VictoryHoldSeconds` / `SkillHoldSeconds` 已删除）。
 
 | 项目 | 旧值 | 新值 | 定义位置 | 引用位置 |
 |---|---|---|---|---|

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public enum ActionKind { Wait, BasicAttack, Talisman, Heal, Cleanse, SwitchStance, ThrowSpirit, SwallowSpirit, CarrySpirit, Retreat, Sprint, Echo, MaskCharge, MaskBlast }
     public sealed class ForestCommand

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 class TacticalInteractionChecks
 {
     static void Check(bool ok,string reason) { if(!ok) throw new Exception(reason); }

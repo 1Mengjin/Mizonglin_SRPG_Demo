@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
 public static class AnnouncementFrameChecks
 {
@@ -33,10 +33,10 @@ public static class AnnouncementFrameChecks
         {
             EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
             demo = new GameObject("Frame verification").AddComponent<BattleDemo>();
-            demo.forestScenario = AssetDatabase.LoadAssetAtPath<Zilong.Forest.ForestScenario>("Assets/Data/ForestScenario.asset");
+            demo.forestScenario = AssetDatabase.LoadAssetAtPath<Mizonglin.Forest.ForestScenario>("Assets/Data/ForestScenario.asset");
             demo.scenario = AssetDatabase.LoadAssetAtPath<BattleScenario>("Assets/Data/BattleScenario.asset");
             demo.RebuildEditorPreview();
-            Field<Zilong.Forest.ForestTutorialGuide>("tutorialGuide").MarkShown(Zilong.Forest.ForestTutorialTopic.Fog | Zilong.Forest.ForestTutorialTopic.Mask);
+            Field<Mizonglin.Forest.ForestTutorialGuide>("tutorialGuide").MarkShown(Mizonglin.Forest.ForestTutorialTopic.Fog | Mizonglin.Forest.ForestTutorialTopic.Mask);
             var hud = Field<Canvas>("canvas"); hud.gameObject.SetActive(true);
             ((IEnumerator)Call("ShowVictoryConditions")).MoveNext(); Panel("Objective ribbon"); Capture("ui-08-objective-frame");
             var actor = demo.State.units.First(u => !u.enemy && u.stats?.portrait != null);

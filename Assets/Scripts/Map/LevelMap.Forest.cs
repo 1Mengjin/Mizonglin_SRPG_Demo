@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     // Region ownership, terrain and initial dynamic state are authored independently.
     public enum MapRegion { 密林, 出生林, 头道门, 中庭, 树精林A, 北道, 千面祭坛, 东侧林道, 树精林B, 西径, 东连接口 }

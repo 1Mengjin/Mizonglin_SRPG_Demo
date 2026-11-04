@@ -6,8 +6,8 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 [InitializeOnLoad]
 public static class RewardIntegration

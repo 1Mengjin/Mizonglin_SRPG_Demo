@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public enum Ground { Normal, Blocked, Hazard }
     [Serializable] public sealed class SpawnPoint

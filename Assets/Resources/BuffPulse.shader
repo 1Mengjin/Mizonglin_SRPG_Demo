@@ -1,4 +1,4 @@
-Shader "Zilong/BuffPulse"
+Shader "Mizonglin/BuffPulse"
 {
     Properties { _Color ("Color", Color) = (1,1,1,1) }
     SubShader

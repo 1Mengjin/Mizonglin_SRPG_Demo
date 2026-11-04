@@ -9,7 +9,7 @@
 - `Assets/Scripts/Forest/ForestDefaults.cs`：按台账创建默认值，只复用旧地图几何，不复用旧单位或战斗规则。
 - `Assets/Scripts/Forest/ForestScenario.cs`：Unity 配置资源和独立战局创建入口。
 - `Assets/Scripts/Forest/ForestBattleState.cs`：局内状态容器、独立初始快照与重开；不推进回合。
-- `Assets/Editor/ForestDataWindow.cs`：菜单「紫龙 Demo → 迷踪林 → 里程碑1数据与状态」。
+- `Assets/Editor/ForestDataWindow.cs`：菜单「迷踪林战棋 Demo → 迷踪林 → 里程碑1数据与状态」。
 - `Assets/Editor/ForestDataChecks.cs`、`ForestMilestoneOneChecks.cs`：数据验收与 Unity 原生序列化验收入口。
 
 ## A01：模板与实例

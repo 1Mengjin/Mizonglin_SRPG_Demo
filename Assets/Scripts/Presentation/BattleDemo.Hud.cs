@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed partial class BattleDemo
     {
@@ -119,9 +119,9 @@ namespace Zilong.Demo
             if (!visible) HideStatusDetails();
             bool canAct=visible && !unit.enemy && !unit.acted && !battleEnded;
             bool hasFreeStanceSkill = visible && ForestEnabled && unit.forestUnit?.flight != null
-                && !unit.enemy && !battleEnded && State.Forest.phase == Zilong.Forest.BattlePhase.Player;
+                && !unit.enemy && !battleEnded && State.Forest.phase == Mizonglin.Forest.BattlePhase.Player;
             bool hasFreeSpiritAction = visible && ForestEnabled && !unit.enemy && !battleEnded
-                && State.Forest.phase == Zilong.Forest.BattlePhase.Player && (unit.forestUnit.carriedSpiritId != null || ForestGroundSpirit() != null);
+                && State.Forest.phase == Mizonglin.Forest.BattlePhase.Player && (unit.forestUnit.carriedSpiritId != null || ForestGroundSpirit() != null);
             actionWheel.gameObject.SetActive(canAct || hasFreeStanceSkill || hasFreeSpiritAction);
             skillSlots.gameObject.SetActive(canAct || hasFreeStanceSkill);
             wait.interactable=canAct && !busy;

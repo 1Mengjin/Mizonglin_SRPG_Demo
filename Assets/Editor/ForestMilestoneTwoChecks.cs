@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-using Zilong.Forest;
+using Mizonglin.Forest;
 
 public static class ForestMilestoneTwoChecks
 {
-    [MenuItem("紫龙 Demo/迷踪林/执行里程碑2验收")]
+    [MenuItem("迷踪林战棋 Demo/迷踪林/执行里程碑2验收")]
     public static void Run()
     {
         var scenario = DemoSetup.GetForestScenario();

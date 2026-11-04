@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public enum Faction { Ally, Enemy }
     public enum Element { None, Ice, Fire, Thunder, Light, Dark }

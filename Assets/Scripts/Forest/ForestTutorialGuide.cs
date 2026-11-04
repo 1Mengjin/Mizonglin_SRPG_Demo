@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     [Flags] public enum ForestTutorialTopic { None = 0, Fog = 1, Mask = 2 }
 

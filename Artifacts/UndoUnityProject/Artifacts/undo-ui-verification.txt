@@ -1,1 +1,0 @@
-PASS Unity Play: undo button sits below 战斗记录 and above 本局用时 with the same ink style; disabled while busy or without history; a real Wait operation enables it; one click reverts the character's whole round, truncates the log, reselects the character and disables the button.

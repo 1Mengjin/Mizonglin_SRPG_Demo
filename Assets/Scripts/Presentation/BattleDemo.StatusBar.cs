@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Zilong.Forest;
+using Mizonglin.Forest;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed partial class BattleDemo
     {

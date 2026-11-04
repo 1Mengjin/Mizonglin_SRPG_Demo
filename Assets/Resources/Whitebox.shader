@@ -1,4 +1,4 @@
-Shader "Zilong/Whitebox"
+Shader "Mizonglin/Whitebox"
 {
     Properties { _Color ("Color", Color) = (1,1,1,1) }
     SubShader

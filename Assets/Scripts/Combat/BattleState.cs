@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public enum SelectionPhase { None, Selected, Preview, Inspect }
     [Serializable]
@@ -13,8 +13,8 @@ namespace Zilong.Demo
         public Vector2Int cell;
         public int move, hp;
         public FighterTemplate stats;
-        public Zilong.Forest.UnitState forestUnit;
-        public Zilong.Forest.ForestBattleState forestBattle;
+        public Mizonglin.Forest.UnitState forestUnit;
+        public Mizonglin.Forest.ForestBattleState forestBattle;
         public Vector2Int anchor;
         public DemoUnit(string id, string name, bool enemy, int x, int y, int move, int hp)
         { this.id = id; this.name = name; this.enemy = enemy; cell = new Vector2Int(x,y); this.move = move; this.hp = hp; }
@@ -84,7 +84,7 @@ namespace Zilong.Demo
             if (phase == SelectionPhase.Inspect) return;
             if (Forest != null)
             {
-                var area = Zilong.Forest.ForestPathfinder.Reachable(Forest, unit.forestUnit);
+                var area = Mizonglin.Forest.ForestPathfinder.Reachable(Forest, unit.forestUnit);
                 foreach (var entry in area.costs) reachable.Add(entry.Key, entry.Value);
                 foreach (var entry in area.parents) parents.Add(entry.Key, entry.Value);
                 return;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public enum EnemyPolicy { Stationary, Chase, Guard }
 
@@ -78,7 +78,7 @@ namespace Zilong.Demo
         public static bool CanHit(DemoUnit a,Vector2Int from,DemoUnit b)
         {
             if (a?.forestBattle != null && b?.forestUnit != null)
-                return Zilong.Forest.ForestRules.CanHit(a.forestBattle, a.forestUnit, from, b.forestUnit);
+                return Mizonglin.Forest.ForestRules.CanHit(a.forestBattle, a.forestUnit, from, b.forestUnit);
             if(a==null || b==null || a.enemy==b.enemy || a.hp<=0 || b.hp<=0) return false;
             int distance=Distance(from,b.cell);
             return distance>=1 && distance<=a.stats.range;
@@ -89,12 +89,12 @@ namespace Zilong.Demo
             if(actor==null || actor.enemy || actor.acted || actor.stats==null || target==null || target.stats==null) return false;
             if(state.phase!=SelectionPhase.Selected && state.phase!=SelectionPhase.Preview) return false;
             if (state.Forest != null)
-                return Zilong.Forest.ForestRules.ValidateCommand(state.Forest, new Zilong.Forest.ForestCommand {
-                    actorId = actor.id, targetId = target.id, kind = Zilong.Forest.ActionKind.BasicAttack,
+                return Mizonglin.Forest.ForestRules.ValidateCommand(state.Forest, new Mizonglin.Forest.ForestCommand {
+                    actorId = actor.id, targetId = target.id, kind = Mizonglin.Forest.ActionKind.BasicAttack,
                     path = state.Path(state.phase == SelectionPhase.Preview ? state.preview : actor.cell) }) == null;
             return CanHit(actor,state.phase==SelectionPhase.Preview?state.preview:actor.cell,target);
         }
-        public static int Damage(DemoUnit a,DemoUnit b)=>a.forestBattle != null ? Zilong.Forest.ForestRules.Damage(a.forestBattle,a.forestUnit,b.forestUnit) : Math.Max(1,a.stats.attack-b.stats.defense);
+        public static int Damage(DemoUnit a,DemoUnit b)=>a.forestBattle != null ? Mizonglin.Forest.ForestRules.Damage(a.forestBattle,a.forestUnit,b.forestUnit) : Math.Max(1,a.stats.attack-b.stats.defense);
         public static bool Counter(DemoUnit a,DemoUnit b)=>a.stats.range==1 && b.stats.range==1 && CanHit(b,b.cell,a);
         public static int Hazard(DemoUnit unit,int percent)=>(int)(((long)unit.stats.hp*percent+99)/100);
         public static void Hurt(BattleState state,DemoUnit unit,int amount)

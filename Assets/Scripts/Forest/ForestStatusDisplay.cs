@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public enum StatusIcon { Poison, Scar, Shield, Sword, Wing, Reflect, Link, Heart, Stun, Spirit, Purify, Action, Fruit, Fog, Mask, Charge, Cooldown }
     public enum StatusTone { Positive, Negative, Neutral }

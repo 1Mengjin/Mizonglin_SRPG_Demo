@@ -7,8 +7,8 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 public sealed class DescriptionPlayChecks : MonoBehaviour
 {

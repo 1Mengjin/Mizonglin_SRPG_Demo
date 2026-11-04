@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed class SkillHoldDescription : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
     {

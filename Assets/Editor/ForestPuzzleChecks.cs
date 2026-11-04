@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-using Zilong.Forest;
+using Mizonglin.Forest;
 
 // Design invariants of the puzzle level. The numbers are authored in Assets/Data/ForestScenario.asset;
 // ForestDefaults stays a separate preset, so Artifacts/verify_puzzle.py dumps the authored numbers to

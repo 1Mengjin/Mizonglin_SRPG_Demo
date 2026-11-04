@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public static partial class ForestRules
     {

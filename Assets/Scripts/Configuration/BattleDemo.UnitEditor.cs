@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed partial class BattleDemo
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     // Resolution-independent ornament; no screenshot fragments or external textures are needed.
     public sealed class BattleAnnouncementGraphic : MaskableGraphic

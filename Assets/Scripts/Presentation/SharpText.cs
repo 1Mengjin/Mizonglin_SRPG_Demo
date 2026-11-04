@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     // Retain Text's original layout and geometry, but sample glyphs from a denser font atlas.
     public sealed class SharpText : Text

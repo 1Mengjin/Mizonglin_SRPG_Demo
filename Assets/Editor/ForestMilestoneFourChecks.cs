@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class ForestMilestoneFourChecks
 {
-    [MenuItem("紫龙 Demo/迷踪林/执行里程碑4验收")]
+    [MenuItem("迷踪林战棋 Demo/迷踪林/执行里程碑4验收")]
     public static void Run()
     {
         string report = ForestEnemyChecks.Run();

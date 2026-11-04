@@ -117,3 +117,6 @@ InitTestScene*.unity*
 # 本次权限修复的回滚记录，不属于项目内容
 /.dsh-acl-reports/
 /.codex/
+
+# 旧版整包快照（含 Library 缓存），不随仓库分发
+/Artifacts/UndoUnityProject/

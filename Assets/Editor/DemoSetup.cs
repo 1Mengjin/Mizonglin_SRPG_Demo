@@ -6,8 +6,8 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 [InitializeOnLoad]
 public static class DemoSetup
@@ -122,14 +122,14 @@ public static class DemoSetup
         SceneView.RepaintAll();
     }
 
-    [MenuItem("紫龙 Demo/打开主场景")]
+    [MenuItem("迷踪林战棋 Demo/打开主场景")]
     public static void Open()
     {
         if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
         EditorSceneManager.OpenScene(ScenePath);
     }
 
-    [MenuItem("紫龙 Demo/刷新并保存场景预览")]
+    [MenuItem("迷踪林战棋 Demo/刷新并保存场景预览")]
     public static void RefreshPreview()
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) return;
@@ -186,15 +186,15 @@ public static class DemoSetup
         Directory.CreateDirectory("Build/Demo");
         var result = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
             scenes = new[] { ScenePath }, target = BuildTarget.StandaloneWindows64,
-            locationPathName = "Build/Demo/ZilongDemo.exe", options = BuildOptions.Development
+            locationPathName = "Build/Demo/MizonglinDemo.exe", options = BuildOptions.Development
         });
         if (result.summary.result != UnityEditor.Build.Reporting.BuildResult.Succeeded) throw new Exception("Demo build failed");
         Debug.Log("DEMO_BUILD_PASS");
     }
 
-    public const string WindowsBuildPath = "Build/Demo/ZilongDemo.exe";
+    public const string WindowsBuildPath = "Build/Demo/MizonglinDemo.exe";
 
-    [MenuItem("紫龙 Demo/构建 Windows 版（Release）", false, 100)]
+    [MenuItem("迷踪林战棋 Demo/构建 Windows 版（Release）", false, 100)]
     public static void BuildWindowsRelease()
     {
         var validation = GetForestScenario().Validate();

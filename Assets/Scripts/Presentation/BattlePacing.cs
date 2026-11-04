@@ -1,4 +1,4 @@
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     // 表现层节奏常量集中地。
     // 所有会阻塞玩家输入、或直接决定一次表现占用多长的时长都在这里定义；

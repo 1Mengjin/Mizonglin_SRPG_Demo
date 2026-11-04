@@ -6,8 +6,8 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 // Verifies the in-game undo button in an actual Play session.
 [InitializeOnLoad]

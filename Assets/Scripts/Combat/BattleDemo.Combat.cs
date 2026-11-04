@@ -4,11 +4,11 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed partial class BattleDemo
     {
-#if ZILONG_STAGE_THREE_PLAYER
+#if MIZONGLIN_STAGE_THREE_PLAYER
         [NonSerialized] // The reusable player scene serializes only the original stageTwo flag.
 #endif
         public bool stageThree;
@@ -45,7 +45,7 @@ namespace Zilong.Demo
         }
         IEnumerator PlayerAction(DemoUnit target)
         {
-            if (ForestEnabled) { yield return ForestPlayerAction(ForestCommandFor(target == null ? Zilong.Forest.ActionKind.Wait : Zilong.Forest.ActionKind.BasicAttack, target)); yield break; }
+            if (ForestEnabled) { yield return ForestPlayerAction(ForestCommandFor(target == null ? Mizonglin.Forest.ActionKind.Wait : Mizonglin.Forest.ActionKind.BasicAttack, target)); yield break; }
             int epoch=combatEpoch;
             var actor=State.selected;
             if(busy || State.phase!=SelectionPhase.Preview || actor==null || actor.acted) yield break;

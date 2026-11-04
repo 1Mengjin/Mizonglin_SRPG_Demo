@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
     public sealed partial class BattleDemo : MonoBehaviour
     {
@@ -47,7 +47,7 @@ namespace Zilong.Demo
         void Awake()
         {
             if (editorPreviewRoot != null) editorPreviewRoot.SetActive(false);
-#if ZILONG_STAGE_THREE_PLAYER
+#if MIZONGLIN_STAGE_THREE_PLAYER
             stageThree = stageTwo = true;
 #endif
             State = new BattleState();
@@ -210,7 +210,7 @@ namespace Zilong.Demo
             if (State.Forest != null)
             {
                 bool rootsActive = State.Forest.unitsById.TryGetValue(State.Forest.RootSourceInstanceId ?? "", out var source)
-                    && Zilong.Forest.ForestRules.Alive(source);
+                    && Mizonglin.Forest.ForestRules.Alive(source);
                 foreach (var marker in boardRoot.GetComponentsInChildren<Transform>(true))
                     if (marker.name.StartsWith("根须候选 ")) marker.gameObject.SetActive(rootsActive);
             }
@@ -462,7 +462,7 @@ namespace Zilong.Demo
             var u=State.selected;
             count.text=$"可行动  {State.units.FindAll(a=>!a.enemy&&!a.acted).Count} / {State.units.FindAll(a=>!a.enemy).Count}";
             if (ForestEnabled) count.text = "可行动 " + State.units.Count(a => !a.enemy && !a.acted) + "人 行动余 "
-                + forestSession.State.unitsById.Values.Where(a => Zilong.Forest.ForestRules.Alive(a) && forestSession.State.GetTemplate(a.templateId).faction == Zilong.Forest.Faction.Ally).Sum(a => a.acted ? 0 : 1 + a.bonusActions) + "次";
+                + forestSession.State.unitsById.Values.Where(a => Mizonglin.Forest.ForestRules.Alive(a) && forestSession.State.GetTemplate(a.templateId).faction == Mizonglin.Forest.Faction.Ally).Sum(a => a.acted ? 0 : 1 + a.bonusActions) + "次";
             endTurn.interactable=restart.interactable=!busy;
             if(returnToEditor!=null) returnToEditor.interactable=!busy;
             foreach(var pair in labels)

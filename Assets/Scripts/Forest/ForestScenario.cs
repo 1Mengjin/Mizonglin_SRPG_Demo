@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
-    [CreateAssetMenu(menuName = "紫龙/迷踪林正式配置", fileName = "ForestScenario")]
+    [CreateAssetMenu(menuName = "迷踪林/迷踪林正式配置", fileName = "ForestScenario")]
     public sealed class ForestScenario : ScriptableObject
     {
         // An empty asset is invalid; missing data must not silently become a default scenario.

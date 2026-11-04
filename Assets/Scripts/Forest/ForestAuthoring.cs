@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
-namespace Zilong.Forest
+namespace Mizonglin.Forest
 {
     public static class ForestAuthoring
     {

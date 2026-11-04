@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-namespace Zilong.Demo
+namespace Mizonglin.Demo
 {
-    [CreateAssetMenu(menuName = "紫龙/关卡配置", fileName = "BattleScenario")]
+    [CreateAssetMenu(menuName = "迷踪林/关卡配置", fileName = "BattleScenario")]
     public sealed class BattleScenario : ScriptableObject
     {
         public LevelMap map = LevelMap.Default();

@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using Zilong.Forest;
+using Mizonglin.Forest;
 
 public sealed class ForestDataWindow : EditorWindow
 {
@@ -13,7 +13,7 @@ public sealed class ForestDataWindow : EditorWindow
     string message;
     MessageType messageType;
 
-    [MenuItem("紫龙 Demo/迷踪林/里程碑1数据与状态")]
+    [MenuItem("迷踪林战棋 Demo/迷踪林/里程碑1数据与状态")]
     public static void Open()
     {
         var window = GetWindow<ForestDataWindow>("迷踪林数据");

@@ -3,8 +3,8 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Zilong.Demo;
-using Zilong.Forest;
+using Mizonglin.Demo;
+using Mizonglin.Forest;
 
 public sealed class LevelDesigner : EditorWindow
 {
@@ -19,7 +19,7 @@ public sealed class LevelDesigner : EditorWindow
     bool paintScene;
     float cellSize = 48;
 
-    [MenuItem("紫龙 Demo/关卡设计")]
+    [MenuItem("迷踪林战棋 Demo/关卡设计")]
     public static void Open()
     {
         var window = GetWindow<LevelDesigner>("关卡设计");

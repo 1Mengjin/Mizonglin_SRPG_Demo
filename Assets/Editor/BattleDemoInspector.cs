@@ -1,6 +1,6 @@
 using UnityEditor;
 using UnityEngine;
-using Zilong.Demo;
+using Mizonglin.Demo;
 
 [CustomEditor(typeof(BattleDemo))]
 public sealed class BattleDemoInspector : Editor
