@@ -10,7 +10,7 @@
 
 ## 在线试玩
 
-桌面浏览器打开：<https://1mengjin.github.io/ZILONG/>
+桌面浏览器打开：<https://1mengjin.github.io/Mizonglin_SRPG_Demo/>
 
 - 左键选中单位、右键拖动镜头、Esc 取消，右下角按钮进入全屏。移动端不保证可用（右键拖动与悬停预览没有触屏对应操作）。
 - 构建：Unity 菜单 **紫龙 Demo → 构建 WebGL 试玩**，输出到 `docs/`（Gzip + 解压回退，任何静态托管都能直接跑）。提交 `docs/` 后由 GitHub Pages 从该目录发布。
