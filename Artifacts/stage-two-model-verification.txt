@@ -1,0 +1,1 @@
+PASS: default map, coordinate errors, spawn overlap/obstacles, blocked goal, missing faction, choke closure, real detour, placement protection, disk roundtrip, failed-save preservation, clone isolation.

@@ -1,0 +1,18 @@
+PASS Objective ribbon uses a native Image background
+PASS Objective ribbon has 72% translucent black fill
+PASS Objective ribbon has four straight Image borders
+PASS Objective ribbon leaves the scene outside undimmed
+PASS Skill ribbon uses a native Image background
+PASS Skill ribbon has 72% translucent black fill
+PASS Skill ribbon has four straight Image borders
+PASS Skill ribbon leaves the scene outside undimmed
+PASS Skill name frame uses a native Image background
+PASS Skill name frame has 72% translucent black fill
+PASS Skill name frame has four straight Image borders
+PASS Skill name frame leaves the scene outside undimmed
+PASS Enemy skill frame uses a native Image background
+PASS Enemy skill frame has 72% translucent black fill
+PASS Enemy skill frame has four straight Image borders
+PASS Enemy skill frame leaves the scene outside undimmed
+PASS turn transition keeps its full-screen shade
+Native Unity UI construction and frame rendering completed; animation timing not exercised by this suite.

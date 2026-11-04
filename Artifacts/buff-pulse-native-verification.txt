@@ -1,0 +1,1 @@
+PASS Unity Play: shader supported; actual damage settles3 awakening and8 curse stacks; cyan3-ring ripple and yellow9-star body flash visible; same events do not replay; effects clean within0.7s; restart/cleanup reset transient resources.30 form tuning assertions and runtime/editor compile passed.

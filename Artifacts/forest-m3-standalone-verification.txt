@@ -1,0 +1,1 @@
+PASS revised spirit rules (43 focused assertions): explicit carry/swallow; free carry/throw/swallow before and after major action; single movement; isolated preview; flight/carry limits; purification; boss drops; presentation adapter. No Play or computer-use verification.

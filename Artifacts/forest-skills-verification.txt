@@ -1,0 +1,1 @@
+PASS skill update (42 focused assertions): boss charge/warning/fixed blast; talisman damage/stun; guard strike/retreat reflection; attack retreat HP cost; sprint actions/CD; ally teleport targeting/CD/action; preview, state copying and phase safety. Long-press UI compiled only; no Play/computer-use.

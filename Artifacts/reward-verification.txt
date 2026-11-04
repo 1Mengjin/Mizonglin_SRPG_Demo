@@ -1,0 +1,1 @@
+PASS: full runtime/editor compile; saved asset; preview sparkle; preview/cancel/pass-through isolation; endpoint pickup once; no attribute reward effect; deep copy; obstacle cleanup; invalid cell validation; actual Play movement/wait popup and 2s dismissal; restart restore.

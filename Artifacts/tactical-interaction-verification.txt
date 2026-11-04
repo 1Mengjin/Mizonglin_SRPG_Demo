@@ -1,0 +1,1 @@
+PASS: actual C# movement border; open-ground diamond; map-edge clipping; zero movement; all four forest allies; complete adjacency; no overlap with reachable/blocked cells; preview preserves border; cancel, commit and inspection clear border. Camera rendering and mouse input require Unity Play verification.

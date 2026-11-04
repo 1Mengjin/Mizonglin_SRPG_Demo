@@ -1,0 +1,1 @@
+PASS puzzle invariants (56 assertions): 85 hp corpse survives 75 and 75+6, dies at exactly 75+10 (three curse layers); 120 hp devourer survives a 119 talisman and dies silenced with fog retained; one 8-cell spirit leaves exactly two scars; a living fog carrier blocks victory while a dead one does not; mask blast spares enemies. Numbers are read from the authored asset snapshot.

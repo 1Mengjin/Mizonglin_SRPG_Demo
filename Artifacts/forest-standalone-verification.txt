@@ -1,0 +1,1 @@
+PASS: actual C# factory and validation; 18x14; 149 connected cells; 15 initial fog cells; routes 20/22/22; four cutouts; 11 spawns; root/patrol markers; painting layer consistency. Runtime and editor assemblies compiled against installed Unity references. Unity rendering/Play checks blocked by missing license.

@@ -1,0 +1,1 @@
+PASS post-boss reinforcements (73 assertions): real final death; one wave per battle on the death round only; exact preferred tiles; occupied/blocked/spirit nearest fallback; no overlaps; RNG/copy isolation; full-map shortage stays a single attempt; finish/timeout/elimination stop; AI and restart.

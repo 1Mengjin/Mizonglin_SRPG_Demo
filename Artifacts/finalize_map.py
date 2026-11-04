@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('Assets/Editor/DemoSetup.cs');s=p.read_text(encoding='utf-8-sig').replace('if (tiles != 100) throw new Exception("Preview needs 100 tiles");','if (tiles != GetScenario().map.width*GetScenario().map.height) throw new Exception("Preview tile count does not match map");');p.write_text(s,encoding='utf-8')
+p=Path('Assets/Scripts/Map/LevelMap.cs');s=p.read_text(encoding='utf-8-sig').replace('            return true;\n        }\n        public bool Place', '            if(version==2 && ground!=Ground.Blocked && regions[p.y*width+p.x]==0) regions[p.y*width+p.x]=(int)MapRegion.中庭;\n            return true;\n        }\n        public bool Place');p.write_text(s,encoding='utf-8')

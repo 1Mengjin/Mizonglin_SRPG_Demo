@@ -1,0 +1,7 @@
+PASS native Editor: actual formal asset save/reload, edited values and placement reach live templates; all 8 template editors and rules GUI render; formal scene preview saved/rendered; all 11 live view bindings.
+PASS actual Play: formal startup without stance popup; free stance skill and next-round application; self-cell/move cancellation buttons; self-heal; target cancellation; talisman; manual end and phase advance; turn3 form; skipped self-damage; restart.
+PASS M2 (135 assertions): A05 actions/phases/CD; A06 integer damage/counters/forms/protection/self damage; A07 poison/flight/death history; A08 skills/preview; A09 weighted pathfinding.
+PASS integration model: 8 formal templates / 11 instances; authored stats and placement reach live projection; authoring validation.
+PASS regressions: free stance skill, next-round application, CD1, stance persistence/death/restart; self-cell preview cancellation; no committed movement or consumed/restored action.
+M3/M4 enemy behaviors, spirits, fruit/absorption and full victory/timeout remain out of scope.
+PASS Unity native formal configuration load and JSON roundtrip.

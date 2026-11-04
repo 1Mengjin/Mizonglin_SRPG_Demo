@@ -1,0 +1,8 @@
+PASS Status Chinese text uses the double-density font glyphs
+PASS Every text vertex position remains unchanged
+PASS Font size, wrapping bounds and preferred height remain unchanged
+PASS Screen resolution and canvas scaling remain unchanged: 640x480
+PASS Original 1920x1080 player defaults are preserved
+PASS Existing dynamic fonts and text components remain compatible
+Detailed text components: 46/48
+PASS actual Unity double-density text rendering with original geometry and display settings.

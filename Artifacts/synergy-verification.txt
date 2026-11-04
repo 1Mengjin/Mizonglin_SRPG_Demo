@@ -1,0 +1,1 @@
+PASS character synergy (41 assertions): form buffs; dynamic guard radius and AOE; ranged120% counter; awakening cap/trigger/heal/self-cost/lethal timing; movement/teleport curse cap/detonation; previews/copies/UI/restart.

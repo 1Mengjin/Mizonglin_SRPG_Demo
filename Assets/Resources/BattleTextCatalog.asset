@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c9cf201a3d3c742a9ecfe6cefc3ca6, type: 3}
+  m_Name: BattleTextCatalog
+  m_EditorClassIdentifier: 
+  entries:
+  - id: status.guard-radius
+    label: "\u62A4\u536B"
+    title: 
+    description: "\u4E3A2\u683C\u8DDD\u79BB\u4EE5\u5185\u7684\u961F\u53CB\u62B5\u6321\u654C\u65B9\u666E\u653B\u3001\u53CD\u51FB\u53CA\u4E3B\u52A8\u6280\u80FD\u4F24\u5BB3\uFF0C\u6309\u539F\u76EE\u6807\u7ED3\u7B97\u7684\u4F24\u5BB3\u6574\u4EFD\u8F6C\u79FB\u3002"
+  - id: skill.Talisman
+    label: "\u7B26\u7B93\u9547"
+    title: 
+    description: "\u9009\u62E9{\u7B26\u7B93\u8DDD\u79BB}\u683C\u5185\u7684\u4E2D\u5FC3\uFF0C\u5BF9{\u7B26\u7B93\u8303\u56F4}\xD7{\u7B26\u7B93\u8303\u56F4}\u8303\u56F4\u5185\u654C\u4EBA\u9020\u6210150%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\uFF0C\u5E76\u6655\u77291\u56DE\u5408\u3002"
+  - id: skill.Echo
+    label: "\u7B26\u7B93\xB7\u5F15"
+    title: 
+    description: "\u5C06{\u4F20\u9001\u8DDD\u79BB}\u683C\u5185\u4E00\u540D\u961F\u53CB\u4F20\u9001\u81F3\u8EAB\u65C1\u56DB\u683C\u7684\u6307\u5B9A\u5730\u5757\u3002\u51B7\u53743\u56DE\u5408\u3002"
+  - id: skill.Heal
+    label: "\u6CBB\u7597"
+    title: 
+    description: "\u4E3A{\u6CBB\u7597\u8DDD\u79BB}\u683C\u5185\u4E00\u540D\u5B58\u6D3B\u961F\u53CB\uFF08\u53EF\u9009\u81EA\u8EAB\uFF09\u6062\u590D{\u6CBB\u7597\u91CF}\u751F\u547D\uFF0C\u5E76\u65BD\u52A01\u5C42\u5524\u7075\uFF0C\u6700\u591A3\u5C42\u3002\n\u51B7\u53741\u56DE\u5408\u3002"
+  - id: skill.Cleanse
+    label: "\u6DA4\u5C18"
+    title: 
+    description: "\u6E05\u9664{\u6DA4\u5C18\u8DDD\u79BB}\u683C\u5185\u4E00\u540D\u5B58\u6D3B\u961F\u53CB\uFF08\u5305\u62EC\u81EA\u8EAB\uFF09\u7684\u51CF\u76CA\u6548\u679C\uFF0C\u5E76\u65BD\u52A01\u5C42\u5524\u7075\uFF0C\u6700\u591A3\u5C42\u3002\n\u51B7\u5374{\u6DA4\u5C18\u51B7\u5374}\u56DE\u5408\u3002"
+  - id: skill.SwitchStance
+    label: "\u5C55\u7FFC\uFF0F\u6536\u7FFC"
+    title: 
+    description: "\u4E0B\u56DE\u5408\u5F00\u59CB\u5207\u6362\u98DE\u884C\u6216\u843D\u5730\u59FF\u6001\u3002\u98DE\u884C\u65F6\u79FB\u52A8\u529B+1\uFF0C\u53EF\u7A7F\u8D8A\u969C\u788D\u548C\u5355\u4F4D\uFF0C\u4F46\u4E0D\u80FD\u8FDB\u884C\u5176\u4ED6\u64CD\u4F5C\u3002\n\u51B7\u5374{\u59FF\u6001\u51B7\u5374}\u56DE\u5408\u3002"
+  - id: skill.Sprint
+    label: "\u75BE\u884C"
+    title: 
+    description: "\u83B7\u5F97\u4E00\u6B21\u989D\u5916\u884C\u52A8\u6B21\u6570\u3002\u51B7\u53742\u56DE\u5408\u3002"
+  - id: skill.Retreat
+    label: "\u9000\u53BB"
+    title: 
+    description: "守形态：将下次外来伤害实际扣血量的90%反还给来源。\n攻形态：扣除30%有效最大生命（支付后至少保留1点生命），对射程内敌人造成实付生命值120%的伤害。"
+  - id: skill.CarrySpirit
+    label: "\u643A\u5E26\u5143\u795E"
+    title: 
+    description: "\u643A\u5E26\u811A\u4E0B\u6216\u672C\u6B21\u79FB\u52A8\u8DEF\u5F84\u4E0A\u76841\u9897\u5143\u795E\uFF0C\u6700\u591A\u643A\u5E261\u9897\u3002"
+  - id: skill.ThrowSpirit
+    label: "\u6295\u63B7\u5143\u795E"
+    title: 
+    description: "\u5C06\u643A\u5E26\u7684\u5143\u795E\u6295\u5411{\u6295\u63B7\u8DDD\u79BB}\u683C\u5185\u53EF\u8D70\u4E14\u7A7A\u7F6E\u7684\u5730\u5757\uFF0C\u6E05\u9664\u534A\u5F84{\u6E05\u96FE\u534A\u5F84}\u5185\u7684\u7634\u6C14\u3002"
+  - id: skill.SwallowSpirit
+    label: "\u541E\u4E0B\u5143\u795E"
+    title: 
+    description: "\u83B7\u5F97\u51C0\u884C\u6548\u679C\uFF0C\u53EF\u6E05\u9664\u79FB\u52A8\u8DEF\u5F84\u4E0A\u7684\u7634\u6C14\uFF0C\u4E0A\u9650\u4E3A{\u51C0\u884C\u989D\u5EA6}\u683C\u3002\n\u6BCF\u6E05{\u8680\u75D5\u95F4\u9694}\u683C\u589E\u52A01\u5C42\u8680\u75D5\uFF0C\u6700\u5927\u751F\u547D\u51CF\u5C11{\u8680\u75D5\u4EE3\u4EF7}\u3002"
+  - id: skill.MaskCharge
+    label: "\u5343\u9762\u84C4\u529B"
+    title: "\u84C4\u529B\u4E00\u51FB"
+    description: "\u968F\u673A\u9009\u5B9A\u4E00\u540D\u6211\u65B9\u89D2\u8272\u7684\u65B9\u5411\uFF0C\u9501\u5B9A\u5343\u9762\u8EAB\u65C1\u4E00\u57573\xD73\u533A\u57DF\uFF0C\u4E00\u56DE\u5408\u7684\u84C4\u529B\u540E\u91CA\u653E\u9707\u51FB\u3002"
+  - id: skill.MaskBlast
+    label: "\u5343\u9762\u9707\u51FB"
+    title: "\u9707\u51FB"
+    description: "\u5BF93\xD73\u533A\u57DF\u5185\u7684\u5176\u4ED6\u5355\u4F4D\u9020\u621060\u70B9\u56FA\u5B9A\u4F24\u5BB3\u3002"
+  - id: status.poison
+    label: "\u7634\u6BD2"
+    title: 
+    description: 
+  - id: status.scar
+    label: "\u8680\u75D5"
+    title: 
+    description: 
+  - id: status.stun
+    label: "\u6655\u7729"
+    title: 
+    description: 
+  - id: status.pending-stance
+    label: "\u5F85\u5207\u6362"
+    title: 
+    description: 
+  - id: status.incantation
+    label: "\u8D77\u5492"
+    title: 
+    description: 
+  - id: status.awakening
+    label: "\u5524\u7075"
+    title: 
+    description: 
+  - id: status.curse
+    label: "\u5492\u8A00"
+    title: 
+    description: 
+  - id: status.reflect
+    label: "\u53CD\u4F24"
+    title: 
+    description: 
+  - id: status.near-death
+    label: "\u6FD2\u6B7B"
+    title: 
+    description: 
+  - id: status.actions
+    label: "\u884C\u52A8"
+    title: 
+    description: 
+  - id: status.spirit
+    label: "\u5143\u795E"
+    title: 
+    description: 
+  - id: status.purify
+    label: "\u51C0\u884C"
+    title: 
+    description: 
+  - id: status.fruit
+    label: "\u7634\u679C"
+    title: 
+    description: 
+  - id: status.fog
+    label: "\u643A\u96FE"
+    title: 
+    description: 
+  - id: status.mask
+    label: "\u5343\u9762"
+    title: 
+    description: 
+  - id: status.charge
+    label: "\u84C4\u529B"
+    title: 
+    description: 
+  - id: status.stance.grounded
+    label: "\u843D\u5730\u59FF\u6001"
+    title: 
+    description: 
+  - id: status.stance.flying
+    label: "\u98DE\u884C\u59FF\u6001"
+    title: 
+    description: 
+  - id: status.form.guard
+    label: "\u5B88\u5F62\u6001"
+    title: 
+    description: "移动力-1、防御+50%；相邻普攻仍按50%攻击力结算，保留2格护卫。"
+  - id: status.form.attack
+    label: "\u653B\u5F62\u6001"
+    title: 
+    description: "最大生命+50%、攻击+20%、受到伤害+30%，切换形态时按血量比例换算。保留2格护卫、120%受伤反击和原行动后自伤。"
+  - id: status.movement-preview
+    label: "\u79FB\u52A8\u9884\u89C8"
+    title: 
+    description: 
+  - id: status.cd-talisman
+    label: "\u7B26\u7B93\u9547\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-talisman
+    label: "\u7B26\u7B93\u9547\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 
+  - id: status.cd-echo
+    label: "\u7B26\u7B93\xB7\u5F15\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-echo
+    label: "\u7B26\u7B93\xB7\u5F15\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 
+  - id: status.cd-heal
+    label: "\u6CBB\u7597\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-heal
+    label: "\u6CBB\u7597\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 
+  - id: status.cd-cleanse
+    label: "\u6DA4\u5C18\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-cleanse
+    label: "\u6DA4\u5C18\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 
+  - id: status.cd-stance
+    label: "\u59FF\u6001\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-stance
+    label: "\u59FF\u6001\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 
+  - id: status.cd-sprint
+    label: "\u75BE\u884C\u51B7\u5374"
+    title: 
+    description: 
+  - id: status.uses-sprint
+    label: "\u75BE\u884C\u5269\u4F59\u6B21\u6570"
+    title: 
+    description: 

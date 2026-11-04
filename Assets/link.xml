@@ -1,0 +1,11 @@
+<linker>
+  <!-- Primitive creation and UI picking reach these collider types only through engine code,
+       so IL2CPP strips them from the WebGL player unless they are preserved here. -->
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+  </assembly>
+</linker>

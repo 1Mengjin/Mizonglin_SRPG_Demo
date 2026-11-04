@@ -1,0 +1,1 @@
+PASS: 44 undo assertions; one character's round operations form one step; three-step history; cross-round restore; reinforcement removal; rejected commands; log truncation; elapsed and random rules.

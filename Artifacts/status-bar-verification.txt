@@ -1,0 +1,1 @@
+PASS effects-only status display (22 assertions): applied buffs/debuffs/marks, no actions/uses/cooldowns/permanent descriptions, active flight/forms, zero-state filtering, authored values and read-only state.

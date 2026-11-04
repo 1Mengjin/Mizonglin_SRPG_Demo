@@ -1,0 +1,16 @@
+PASS Fog path opens tutorial before committing movement or resources
+PASS Correct fog tutorial title
+PASS Tutorial pauses camera and battle progression
+PASS Tutorial text fits the reference layout without scrolling (326.9246/490)
+PASS Close button resumes the same uncommitted movement preview
+PASS Repeated fog contact does not reopen tutorial
+PASS Inspecting boss opens its tutorial
+PASS Boss tutorial includes current spirit controls and purification costs
+PASS Tutorial text fits the reference layout without scrolling (417.8572/490)
+PASS Both topics remembered for this run
+PASS Enemy skill notification waits for encounter tutorial
+PASS Closing encounter tutorial resumes enemy notification
+PASS Simultaneous contacts queue two tutorials while retaining input lock
+PASS Restart interrupts tutorial and resets per-run progress
+PASS Restart returns to playable battle without a stuck overlay
+PASS actual Unity Play tutorial flow and rendered captures.

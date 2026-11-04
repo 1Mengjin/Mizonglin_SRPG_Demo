@@ -1,0 +1,8 @@
+PASS opening: objective right-to-center, 4s hold, left exit; player turn completes before phase begins; input blocked.
+PASS status card: native-resolution canvas, concise round counter, clickable read-only effect details.
+PASS skill cut-in: real portrait, recoil entry, 1s hold, simultaneous exit; free stance retains movement preview and action rights.
+PASS targeted skill: validated self-heal executes once after the cut-in.
+PASS turn flow: enemy turn blocks AI; camera arrives before enemy skill; skill executes once; next player phase waits for transition.
+PASS automatic enemy skills: tree bursts and fog absorption announced before atomic round-end settlement; actual event counts preserved.
+PASS restart: interruption cleans old banners and camera lock; repeated restart leaves one opening and one player phase.
+PASS actual Unity Play flow and rendered captures.

@@ -1,0 +1,1 @@
+PASS description templates (7 assertions): live substitution, fallback, empty fields, rich text, unknown tokens and read-only expansion.

@@ -1,0 +1,1 @@
+PASS balance changes (49 assertions): teleport range/target/destination/CD/action/preview/moved caster; flight movement/poison; revive summons count/randomness/occupancy/spirits/AI/adapter/restart/shortfall.

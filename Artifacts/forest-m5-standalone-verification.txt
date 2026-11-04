@@ -1,0 +1,1 @@
+PASS M5 engineering (37 assertions): A18 feedback/threat/actual damage/CD; A19 pollution/resource audit and event export; A20 timer/result/strategy report infrastructure. Actual two-strategy gameplay and real 3-8 minute duration remain unexecuted per no-Play constraint.

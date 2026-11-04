@@ -1,0 +1,11 @@
+PASS Shipped catalog imports and loads from Resources with 46 unique entries
+PASS Movement preview does not add preview/action/skill/passive entries; empty effects section is hidden
+PASS Predicted movement buffs are not shown as applied effects
+PASS Edited descriptions save to the native asset
+PASS Applied effects remain visible; permanent descriptions and counters are absent
+PASS Configured status title is displayed
+PASS Configured description expands current character and stack count
+PASS Reopening status details reads newly saved wording without restarting battle
+PASS Skill long-press callback uses editable title, body and real template parameters
+PASS Editing and reading descriptions does not execute skills or modify battle state
+PASS actual Unity description asset, editor window, save and live UI bindings.

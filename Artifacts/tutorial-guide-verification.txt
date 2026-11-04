@@ -1,0 +1,1 @@
+PASS tutorial guide (18 assertions): first fog/path/poison contact, flight, boss inspection/target/proximity, per-run repeat control, queued topics, authored values and read-only state.

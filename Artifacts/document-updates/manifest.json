@@ -1,0 +1,22 @@
+[
+  {
+    "name": "角色设计文档.md",
+    "original_sha256": "03b78608ad7cfd20bcd2ee239739eeb85db905df6efaa5884db3cce683de897d",
+    "staged_sha256": "9f5419e044fd44e1857a2d66b5f90ef7822aefe943e88aa65bea87f698afb4db"
+  },
+  {
+    "name": "决策台账.md",
+    "original_sha256": "8a79e5154b969731bd80a645d2c1c521202e328031dda8e1aecdaafa7f366dcb",
+    "staged_sha256": "3c78f46db0fdbf5c0641b1ae107bfcd99608c2161de0b7d0f00a63dd722f5aca"
+  },
+  {
+    "name": "迷踪林_规则与实现方案草案.md",
+    "original_sha256": "c9cccdb7de2cfd0d55f3ee0d4b36f3b35d35fb28b818898c6a6d1386c016e857",
+    "staged_sha256": "df6714a327f87aeb851a72278ce7b24cc2a56e715c9d415ebe7787afa01d55f3"
+  },
+  {
+    "name": "角色与怪物属性特征_设计.md",
+    "original_sha256": "d8964539ec18b6ad9256141880b1c7771c467447d3e803eee3678e2c5d30cc2d",
+    "staged_sha256": "91f5bc188c664d82f24123ffed87f60262bd9dab775bdac51b27e735293a0f40"
+  }
+]

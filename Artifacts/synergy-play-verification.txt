@@ -1,0 +1,1 @@
+PASS Unity Play: actual heal button applies awakening; actual movement/wait adds curse; status icons and counts render; nearby guard redirects damage without consuming protected ally buffs; outside radius HP loss heals14 and detonates curse3. Runtime/editor compilation and41 focused assertions passed.

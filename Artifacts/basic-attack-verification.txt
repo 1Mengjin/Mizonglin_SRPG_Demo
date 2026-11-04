@@ -1,0 +1,1 @@
+PASS: direct basic-attack rules; selection required; preview origin; original logical position preserved; melee/ranged reach; empty/friendly/self/dead/acted rejection; cancel restores origin; enemy inspection; wait clears eligibility; existing damage. Runtime and editor assemblies compiled. Unity HUD/portrait rendering and pointer integration not executed.

@@ -1,0 +1,5 @@
+PASS actual serialized formal asset: defaults match for 8 templates, 11 instance identities, parameters and map layers; authored spawn positions are legal, distinct and preserved.
+PASS authored round limit 25 validated and preserved.
+PASS main scene references the formal ForestScenario asset.
+PASS new source metadata present; asset GUIDs unique.
+These are data/reference checks, not native Editor rendering or Play verification.

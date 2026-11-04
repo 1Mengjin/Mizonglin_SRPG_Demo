@@ -1,0 +1,1 @@
+PASS M4 (113 focused assertions): A14 time growth/bursts/attack fall/stun attack-fall pause/death; A15 patrol/absorb/spill/overflow; A16 weighted pursuit/targeting; A17 order/conservation/victory/timeout; A18 devourer self-destruct delay/stun silence/deathrattle suppression; actual default enemy command chain. Logic only, no Play or computer-use.

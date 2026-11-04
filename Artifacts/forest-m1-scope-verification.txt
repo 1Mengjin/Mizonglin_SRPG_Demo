@@ -1,0 +1,4 @@
+PASS: all 19 original source/config/scene files match their pre-change SHA256 values.
+PASS: all 8 new source/asset files have valid Unity metadata.
+PASS: no pending editor check request.
+Only milestone-1 data, initialization, inspection and verification were added; no default gameplay binding was changed.

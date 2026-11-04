@@ -1,0 +1,7 @@
+PASS A01: 8 templates / 11 instances and all preset parameters.
+PASS A02: 18x14 / 149 connected walkable cells / 15 fog / official spawns / roots / patrol.
+PASS A03: deep isolation, detached templates, independent trees, dead fog retained, full restart (3 times).
+PASS A04: invalid schemas, attributes, references, map layers and placements rejected; legacy factories validate and original units initialize.
+Scope: data and initialization only; no skill, phase advancement, AI or victory implementation.
+PASS Unity batch: actual formal/legacy assets imported; native JSON roundtrip; actual legacy JSON initialization.
+Executed in isolated verification project; original scene and gameplay bindings untouched.

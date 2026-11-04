@@ -1,0 +1,21 @@
+{
+  "Assets\\Scripts\\Combat\\BattleDemo.Combat.cs": "6ef32e5528ece570f15a5a1d0dd4e23257ed5a43a8f664922b61c45aa2b14319",
+  "Assets\\Scripts\\Combat\\BattleState.cs": "87397e34d968f4ee0f43d96ec0da4b7c40052db7aabdd25ce718fd6993321293",
+  "Assets\\Scripts\\Combat\\CombatRules.cs": "46a740bd14ef2512eac68f7ea659c5aeacce6d14f15aef790218a050c3cb02f5",
+  "Assets\\Scripts\\Configuration\\BattleDemo.UnitEditor.cs": "cb01f1b39d0352c37d5c3ab3294fe6aba70c7e3697882dc61c38f87849e30cf5",
+  "Assets\\Scripts\\Configuration\\BattleScenario.cs": "65ccd1f20592f62e49208240ea099535c1f14a0fe368603104c4ade8667f57c4",
+  "Assets\\Scripts\\Map\\BattleDemo.MapEditor.cs": "698e8d66bda04bb795fc3917861fb451d892fda3197e83f249ff3043403b3754",
+  "Assets\\Scripts\\Map\\LevelMap.cs": "eaf1d77c0dac05cbaf2f29eb67006fb37f88e11a3777fe0a14fdf528c07d119f",
+  "Assets\\Scripts\\Map\\LevelMap.Forest.cs": "924cd9deee65641599aaf807c07cf554f63040eca586b2d2261ab3167b8c3b7a",
+  "Assets\\Scripts\\Presentation\\BattleDemo.cs": "1aa51a4f6d7e4faa1697775f76e73505a6d997c86f44a3eeff911637869ec65b",
+  "Assets\\Scripts\\Presentation\\BattleDemo.Hud.cs": "3ee16535a712725128978bd059e277e660d76cb87cfd5e15809cb2df4bdec4bb",
+  "Assets\\Scripts\\Presentation\\BattleDemo.Preview.cs": "78ba4a4e54d7d7423392a4cc8c1750e145d242bdfe2abff52ab68820630e011c",
+  "Assets\\Scripts\\Verification\\BattleDemo.CombatChecks.cs": "9b38ddca48dc0c72745f57886e85b20b0f94b7aaeae1351125ed887a1023baec",
+  "Assets\\Editor\\BattleDemoInspector.cs": "9ddc5a8e51a29e606170dc7ab58b4b59ded7ba9782febe5126225a8c651dbeee",
+  "Assets\\Editor\\DemoChecks.cs": "ab8427a11bddd7a4d8d21a4a8c356578f4b824396c128ab84f29e136d7dd9bbf",
+  "Assets\\Editor\\DemoSetup.cs": "9179cd2168e9ff4c2c8840a67300d158ebc95793d014d473d798d1a139a998c5",
+  "Assets\\Editor\\ForestMapChecks.cs": "059fa4e4fbf2b1af65b15b0efb01e4b90efc8f23c9a0dd338d0204239290b113",
+  "Assets\\Editor\\LevelDesigner.cs": "eebe4e45b105faff9dc4a3de0b4a15cc25e964b4890326187bd2db7b2c2a3b51",
+  "Assets\\Data\\BattleScenario.asset": "7b6980bd731519fc004db8787658caeaa94f6795c07b48fae9adb3e0d03232fa",
+  "Assets\\Scenes\\BattleDemo.unity": "27e2d1cb9f36c8cc85157982eb49f1bfa6b175d7240a87b03ceb5e67223fa68d"
+}

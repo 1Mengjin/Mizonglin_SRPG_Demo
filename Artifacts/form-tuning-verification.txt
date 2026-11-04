@@ -1,0 +1,1 @@
+PASS form tuning (30 assertions): current form stats and retained half basic; guard movement; proportional HP both ways with no buff triggers; vulnerability; current-max30% cost/120% damage/insufficient HP;90% reflection; one buff settlement event at holder position.

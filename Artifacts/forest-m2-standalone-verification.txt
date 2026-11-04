@@ -1,0 +1,4 @@
+PASS M2 (135 assertions): A05 actions/phases/CD; A06 integer damage/counters/forms/protection/self damage; A07 poison/flight/death history; A08 skills/preview; A09 weighted pathfinding.
+PASS integration model: 8 formal templates / 11 instances; authored stats and placement reach live projection; authoring validation.
+PASS regressions: free stance skill, next-round application, CD1, stance persistence/death/restart; self-cell preview cancellation; no committed movement or consumed/restored action.
+Scope of this suite: M2 only; resource/phase checks are in the M3 suite.
